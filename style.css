@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(
+        45deg,
+        #0a0a0a 25%,
+        #1a1a1a 25%,
+        #1a1a1a 50%,
+        #0a0a0a 50%,
+        #0a0a0a 75%,
+        #1a1a1a 75%
+    );
+    background-size: 10px 10px;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px solid #cc0000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px dashed #cc0000;
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: #cc0000;
+    font-family: 'Impact', sans-serif;
+    text-shadow: 2px 2px 3px rgba(204,0,0,0.5);
+}
+
+.nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.nav a:hover {
+    background: #cc0000;
+    transform: scale(1.1);
+}
+
+.content {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #cc0000;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px dashed #cc0000;
+    color: #666;
+}
+
+.warning {
+    color: #cc0000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* предыдущие стили остаются */
+
+.content {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #cc0000;
+    display: none; /* Скрываем все секции по умолчанию */
+}
+
+.content:target {
+    display: block; /* Показываем целевую секцию */
+}
+
+.quote {
+    border: 1px solid #cc0000;
+    padding: 10px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.rules {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.warning-box {
+    background: #330000;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px dashed #cc0000;
+}
+
+.advice {
+    background: #222;
+    padding: 15px;
+    border: 1px solid #444;
+}
+
+.secret {
+    color: #990000;
+    font-family: 'Courier New', monospace;
+    margin-top: 20px;
+}
+
+.note {
+    background: #004400;
+    padding: 10px;
+    border-left: 3px solid #00cc00;
+    margin-top: 15px;
+}
